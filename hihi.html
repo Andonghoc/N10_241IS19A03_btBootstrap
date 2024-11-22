@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4 Basic Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Optional Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to My Website</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for showcasing content.</p>
+        <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+    </div>
+
+
+    <div class="container mt-5">
+        <h1 class="text-center">Responsive Image Gallery</h1>
+        <div class="row">
+            <div class="col-12 col-md-4 mb-4">
+                <img src="https://i.pinimg.com/736x/37/56/1e/37561ee3a56341d9e19800493e03935c.jpg" alt="Placeholder Image 1" class="img-fluid">
+              </div>
+              <!-- Image 2 -->
+              <div class="col-12 col-md-4 mb-4">
+                <img src="https://i.pinimg.com/736x/37/56/1e/37561ee3a56341d9e19800493e03935c.jpg" alt="Placeholder Image 2" class="img-fluid">
+              </div>
+              <!-- Image 3 -->
+              <div class="col-12 col-md-4 mb-4">
+                <img src="https://i.pinimg.com/736x/37/56/1e/37561ee3a56341d9e19800493e03935c.jpg" alt="Placeholder Image 3" class="img-fluid">
+              </div>
+              <!-- Image 4 -->
+              <div class="col-12 col-md-4 mb-4">
+                <img src="https://i.pinimg.com/736x/37/56/1e/37561ee3a56341d9e19800493e03935c.jpg" alt="Placeholder Image 4" class="img-fluid">
+              </div>
+              <!-- Image 5 -->
+              <div class="col-12 col-md-4 mb-4">
+                <img src="https://i.pinimg.com/736x/37/56/1e/37561ee3a56341d9e19800493e03935c.jpg" alt="Placeholder Image 5" class="img-fluid">
+              </div>
+              <!-- Image 6 -->
+              <div class="col-12 col-md-4 mb-4">
+                <img src="https://i.pinimg.com/736x/37/56/1e/37561ee3a56341d9e19800493e03935c.jpg" alt="Placeholder Image 6" class="img-fluid">
+              </div>
+       
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Our Pricing Plans</h1>
+        <div class="row text-center">
+          <!-- Basic Plan -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Basic</h5>
+                <p class="card-text">A simple plan for starters.</p>
+                <h2>$10/month</h2>
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+          <!-- Standard Plan -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Standard</h5>
+                <p class="card-text">Our most popular plan.</p>
+                <h2>$50/month</h2>
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+          <!-- Premium Plan -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Premium</h5>
+                <p class="card-text">Best for professionals.</p>
+                <h2>$100/month</h2>
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <h2 class="text-center">Contact Us</h2>
+    <form class="mx-auto" style="max-width: 500px;">
+      <!-- Name input -->
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+      </div>
+      <!-- Email input -->
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+      </div>
+      <!-- Message input -->
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary w-100">Submit</button>
+    </form>
+  </div>
+
+    </footer>
+        
+    <!-- jQuery and Bootstrap JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
